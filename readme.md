@@ -1,4 +1,4 @@
-![Alt text](public/xjs-logo-white.png "Xpresser Logo")
+![Alt text](public/xjs-logo-black.png "Xpresser Logo")
  
 Example app that shows a simple view but also has guides in code comments
 
