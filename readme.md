@@ -2,7 +2,9 @@
 
 ![Alt text](public/xjs-logo-black.png "Xpresser Logo")
  
-Example app that shows a simple view but also has guides in code comments
+Example app using `ejs` templates, Showing a simple view but also has guides in code comments
+
+For same example using `edge.js` templates, similar to laravel blade and faster - [Xpresser Example App Using Edge.js](https://github.com/xpresserjs/new-app-edge)
 
 ### Includes 
 Xpresser Default Page using [Bulma.io](https://bulma.io) & [Bootstrap](https://getbootstrap.com)
@@ -18,4 +20,5 @@ Theme can be changed in `app.js`
 
 
 #### What next?
-Please Star this on [Github](https://github.com/xpresserjs/new-app.git) :)
+Please Star Project :)
+Thank you so much.
