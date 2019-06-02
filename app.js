@@ -1,11 +1,9 @@
-'use strict';
-
 const xpresser = require("xpresser");
 
 xpresser({
     name: "Xjs App",
     project: {
-        theme: "bootstrap"
+        theme: "bulma"
     },
     paths: {
         // The only Required config.
@@ -26,5 +24,14 @@ xpresser({
          * Since this is not a framework app..
          */
         routesFile: 'base://routes.js'
-    }
+    },
+
+    /**
+     * By default xjs sets this for you.
+     */
+    server: {
+        domain: 'localhost',
+        port: 3000,
+        includePortInUrl: true,
+    },
 });
