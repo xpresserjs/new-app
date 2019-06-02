@@ -1,16 +1,4 @@
-<% if(__session.theme === "bulma") { %>
-    <div class="mvh-10 has-text-centered">
-
-        <a href="?theme=bootstrap" class="button is-dark">
-            Switch To Bootstrap
-        </a>
-
-        <a class="button is-warning" target="_blank" href="https://www.npmjs.com/package/xpresser">
-            Documentation
-        </a>
-    </div>
-
-<% } else { %>
+<% if(theme === "bootstrap") { %>
 
     <div class="mt-5 text-center">
 
@@ -20,6 +8,19 @@
             Documentation
         </a>
 
+    </div>
+
+<% } else { %>
+
+    <div class="mvh-10 has-text-centered">
+
+        <a href="?theme=bootstrap" class="button is-dark">
+            Switch To Bootstrap
+        </a>
+
+        <a class="button is-warning" target="_blank" href="https://www.npmjs.com/package/xpresser">
+            Documentation
+        </a>
     </div>
 
 <% } %>

@@ -5,7 +5,7 @@ const xpresser = require("xpresser");
 xpresser({
     name: "Xjs App",
     project: {
-        theme: "bulma"
+        theme: "bootstrap"
     },
     paths: {
         // The only Required config.

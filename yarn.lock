@@ -2969,10 +2969,10 @@ xdg-basedir@^3.0.0:
   resolved "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-3.0.0.tgz#496b2cc109eca8dbacfe2dc72b603c17c5870ad4"
   integrity sha1-SWsswQnsqNus/i3HK2A8F8WHCtQ=
 
-xpresser@^0.0.28:
-  version "0.0.28"
-  resolved "https://registry.yarnpkg.com/xpresser/-/xpresser-0.0.28.tgz#82f6c439569a32bc3983e3fc54e819152d1e0d01"
-  integrity sha512-uYQd/39jA9qFGR8CgXUQTGI/uapQKrjYO7QoRpUrnzuwfg2YkA0zxlWXYILVITXoQuz0KZe5WytX4pxqBgrwRA==
+xpresser@^0.0.30:
+  version "0.0.30"
+  resolved "https://registry.yarnpkg.com/xpresser/-/xpresser-0.0.30.tgz#d9287f08007e65a4278d199378f91573a2292b1b"
+  integrity sha512-BHrMG0cbTi17MU9p80kAvtyjnSCzZhUqS6v6UK5dwKG9pJ+Huvrr+VPyBFlgD7mdamLJISFd1dgva5XXbKWKBA==
   dependencies:
     "@xpresser/auth" "^0.0.9"
     "@xpresser/router" "^0.0.8"

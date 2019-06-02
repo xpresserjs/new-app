@@ -95,6 +95,8 @@ class AppController extends $.controller {
         // Return index view in views folder
         return x.view(theme + '/index', {
             user,
+            // for footer.ejs
+            theme,
         })
     }
 
@@ -124,6 +126,8 @@ class AppController extends $.controller {
         return x.view(theme + '/about', {
             user,
             info,
+            // for footer.ejs
+            theme,
         });
     }
 
