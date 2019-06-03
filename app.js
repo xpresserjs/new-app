@@ -81,13 +81,4 @@ xpresser({
          */
         includePortInUrl: true,
     },
-
-    /**
-     * In order to use express-edge.
-     */
-    template: {
-        use: 'express-edge',
-        // Set extension of templates
-        extension: 'edge'
-    }
 });
