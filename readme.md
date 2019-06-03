@@ -1,6 +1,6 @@
 # Xpresser Example App
 
-![Alt text](public/xjs-logo-black.png "Xpresser Logo")
+![Alt text](https://cdn.jsdelivr.net/npm/xpresser/xpresser-logo-black.png "Xpresser Logo")
  
 Example app using `ejs` templates, Showing a simple view but also has guides in code comments
 
