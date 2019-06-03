@@ -27,7 +27,7 @@ class AppController extends $.controller {
          */
         const user = {
             name: "Developer",
-            email: "developer",
+            email: "developer@example.com",
         };
 
         /**
@@ -117,6 +117,7 @@ class AppController extends $.controller {
          * user is imported from the boot method.
          */
         const info = {
+            email: user.email,
             company: 'Your Company',
             phone: '+123456789',
             address: "Somewhere on earth, maybe Astro world!"
