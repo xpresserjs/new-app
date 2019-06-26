@@ -4,7 +4,7 @@
  
 Example app using `ejs` templates, Showing a simple view but also has guides in code comments
 
-For same example using `edge.js` templates, similar to laravel blade and faster - [Xpresser Example App Using Edge.js](https://github.com/xpresserjs/new-app-edge)
+For same example using `edge.js` templates, similar to laravel blade and faster - [Xpresser Example App Using Edge.js](https://github.com/xpresserjs/new-app-edge-js)
 
 ### Includes 
 Xpresser Default Page using [Bulma.io](https://bulma.io) & [Bootstrap](https://getbootstrap.com)
