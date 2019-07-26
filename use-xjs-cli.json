@@ -8,6 +8,5 @@
     "main": "app.js",
     "server": "forever start",
     "console": "node"
-  },
-  "jobsPath": "jobs"
+  }
 }

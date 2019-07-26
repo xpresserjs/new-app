@@ -1,5 +1,5 @@
+// Import Xpresser
 const xpresser = require("xpresser");
-
 
 /**
  * xpresser init function that requires your config.
@@ -81,4 +81,11 @@ xpresser({
          */
         includePortInUrl: true,
     },
+
+    /**
+     * Enable Session
+     */
+    session: {
+        startOnBoot: true
+    }
 });

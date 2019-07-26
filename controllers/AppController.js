@@ -17,7 +17,7 @@ class AppController extends $.controller {
      * is passed as the second method on all methods.
      *
      * @param {XpresserHttp.Engine} x
-     * @return {object|any}
+     * @return {object|*}
      */
     static boot(x) {
         /**
@@ -43,7 +43,7 @@ class AppController extends $.controller {
          * Helps you get config variables or set default if they don't
          * exist to avoid errors.
          */
-        let theme = x.get("theme", null);
+        let theme = x.query("theme", null);
 
         // Check if theme is bulma/bootstrap
         if (["bulma", "bootstrap"].includes(theme)) {
@@ -127,7 +127,7 @@ class AppController extends $.controller {
         return x.view(theme + '/about', {
             user,
             info,
-            // for footer.ejs
+            // Required by footer.ejs
             theme,
         });
     }
