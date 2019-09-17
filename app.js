@@ -16,8 +16,7 @@ const xpresser = require("xpresser");
  *
  *      xpresser('path/to/config.js');
  */
-
-xpresser({
+const config = {
     /**
      * Set Application Environment.
      */
@@ -88,4 +87,7 @@ xpresser({
     session: {
         startOnBoot: true
     }
-});
+};
+
+// Initialize & Boot Xpresser
+xpresser(config).boot();
