@@ -1,7 +1,7 @@
 {
   "name": "new-xjs-project",
-  "version": "0.1.1",
-  "description": "New Xjs Project",
+  "version": "1.0.0",
+  "description": "New Xpresser Project",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -11,9 +11,9 @@
   "author": "xpresserjs",
   "license": "MIT",
   "dependencies": {
-    "xpresser": "^0.1.29"
+    "xpresser": "^0.1.30"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.3"
   }
 }
