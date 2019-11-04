@@ -16,7 +16,7 @@ class AppController extends $.controller {
      * Whatever is returned in boot method
      * is passed as the second method on all methods.
      *
-     * @param {XpresserHttp.Engine} x
+     * @param {Xpresser.Http} x
      * @return {object|*}
      */
     static boot(x) {
@@ -87,7 +87,7 @@ class AppController extends $.controller {
      * can be static or direct..
      *
      * About Page action is static for test.
-     * @param {XpresserHttp.Engine} x - RequestEngine Instance
+     * @param {Xpresser.Http} x - RequestEngine Instance
      * @param user  - Imported form boot method
      * @param template - Imported form boot method
      */
@@ -106,7 +106,7 @@ class AppController extends $.controller {
      *
      * A static method also works depending on your preference.
      *
-     * @param {XpresserHttp.Engine} x - RequestEngine Instance
+     * @param {Xpresser.Http} x - RequestEngine Instance
      * @param user - Imported from boot method
      * @param theme - Imported from boot method
      */
