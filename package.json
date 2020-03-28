@@ -11,7 +11,7 @@
   "author": "xpresserjs",
   "license": "MIT",
   "dependencies": {
-    "xpresser": "^0.2.11"
+    "xpresser": "^0.2.14"
   },
   "devDependencies": {
     "nodemon": "^1.19.3"
