@@ -65,6 +65,11 @@ module.exports = {
          * by setting this to false
          */
         includePortInUrl: true,
+
+        /**
+         * Use Session Config
+         */
+        use: {session: true}
     },
 
     /**
