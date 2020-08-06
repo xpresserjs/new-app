@@ -11,10 +11,10 @@
   "author": "xpresserjs",
   "license": "MIT",
   "dependencies": {
-    "xpresser": "^0.2.29"
+    "xpresser": "^0.2.44"
   },
   "devDependencies": {
-    "nodemon": "^1.19.3"
+    "nodemon": "^2.0.4"
   },
   "engines": {
     "node": ">=10"

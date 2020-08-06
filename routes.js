@@ -1,6 +1,5 @@
 /**
  * $.router - XpresserRouter
- * @type XpresserRouter
  */
 const route = $.router;
 
