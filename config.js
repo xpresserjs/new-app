@@ -6,7 +6,6 @@ module.exports = {
      * Set Application Environment.
      */
     env: "development",
-
     /**
      * Set Name of Application.
      */
@@ -76,6 +75,6 @@ module.exports = {
      * Enable Session
      */
     session: {
-        startOnBoot: true
+        useDefault: true
     }
 };
