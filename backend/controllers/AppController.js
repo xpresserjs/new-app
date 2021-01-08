@@ -1,9 +1,11 @@
+const {ControllerClass, getInstance} = require('xpresser');
+const $ = getInstance();
+
 /**
  * AppController
- * @class
- * @extends $.controller
  */
-class AppController extends $.controller {
+
+class AppController extends ControllerClass {
 
     /**
      * Boot Method
@@ -41,7 +43,7 @@ class AppController extends $.controller {
          * Helps you get config variables or set default if they don't
          * exist to avoid errors.
          */
-        let theme = http.query("theme", null);
+        let theme = http.query("theme");
 
         // Check if theme is bulma/bootstrap
         if (["bulma", "bootstrap"].includes(theme)) {
