@@ -12,10 +12,11 @@
   "license": "MIT",
   "dependencies": {
     "@xpresser/session": "^1.0.21",
-    "xpresser": "^0.9.1"
+    "xpresser": "^0.11.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "xjs-cli": "^0.2.2"
   },
   "engines": {
     "node": ">=10"
