@@ -12,14 +12,6 @@ module.exports = {
     name: "Xpresser App",
 
     /**
-     * Project Settings.
-     */
-    project: {
-        theme: "bulma"
-    },
-
-
-    /**
      * Path settings..
      */
     paths: {
@@ -54,7 +46,9 @@ module.exports = {
      * By default xjs sets this for you.
      */
     server: {
-        domain: 'localhost',
+        // Set Base Url
+        baseUrl: '/',
+        
         // Server Port
         port: 3000,
 
