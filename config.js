@@ -6,6 +6,7 @@ module.exports = {
      * Set Application Environment.
      */
     env: "development",
+    
     /**
      * Set Name of Application.
      */

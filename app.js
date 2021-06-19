@@ -3,5 +3,11 @@ const {init} = require('xpresser');
 // Import Configuration
 const config = require('./config');
 
-// Initialize & Boot Xpresser
-init(config).boot();
+// Initialize
+const $ = init(config)
+
+// Boot
+$.boot();
+
+// Export DollarSign
+module.exports = $;

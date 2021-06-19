@@ -3,7 +3,6 @@ const {ControllerClass} = require('xpresser');
 /**
  * AppController
  */
-
 class AppController extends ControllerClass {
 
     /**
@@ -48,9 +47,7 @@ class AppController extends ControllerClass {
      */
     index(http, {user}) {
         // Return index view in views folder
-        return http.view('index', {
-            user
-        })
+        return http.view('index', {user})
     }
 
 
