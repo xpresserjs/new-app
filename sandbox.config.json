@@ -1,4 +1,6 @@
 {
   "startScript": "dev",
-  "node": "14"
+  "container": {
+    "node": "14"
+  }
 }
