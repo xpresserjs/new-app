@@ -13,7 +13,7 @@ module.exports = {
     name: "Xpresser App",
 
     /**
-     * Path settings..
+     * Path settings.
      */
     paths: {
 
@@ -21,15 +21,15 @@ module.exports = {
          * Base Folder
          * Where this app is called from.
          *
-         * Best value for this is: __dirname
+         * The Best value for this is: __dirname
          */
         base: __dirname,
 
 
         /**
-         * Xpresser has special string paths
+         * Xpresser has special string paths,
          * and base:// simply means xpresser should
-         * use base path.
+         * use the base path.
          *
          * See file: xpresser/src/config.ts
          * For all default Config options.
@@ -38,17 +38,14 @@ module.exports = {
     },
 
     /**
-     * By default xjs sets this for you.
+     * By default, xjs sets this for you.
      */
     server: {
-        // Set Base Url
-        baseUrl: '/',
-        
         // Server Port
         port: 3000,
 
         /**
-         * By default port is excluded if its [80, 443]
+         * By default, port is excluded if its [80, 443]
          * You can also decide to exclude port in url
          * by setting this to false
          */

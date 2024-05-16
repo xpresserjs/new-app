@@ -6,7 +6,7 @@ const router = require('../app').router;
 
 /**
  * Name in routes is optional.
- * if action of controller name is === to route name
+ * if action of controller name is === to route's name,
  * You can use the `.actionAsName()` function,
  * As seen in about route
  */
