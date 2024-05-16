@@ -1,8 +1,10 @@
+const {getInstanceRouter} = require("xpresser");
+
 /**
  * Get Xpresser Router.
  * i.e. `$.router`
  */
-const router = require('../app').router;
+const router = getInstanceRouter()
 
 /**
  * Name in routes is optional.
